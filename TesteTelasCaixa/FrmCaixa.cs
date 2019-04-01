@@ -52,6 +52,15 @@ namespace TesteTelasCaixa
                 case Keys.F6:
                     btnReimprimirCupom_Click(sender, e);
                     break;
+                case Keys.F7:
+                    btnMenuPrincipal_Click(sender, e);
+                    break;
+                case Keys.F8:
+                    btnFechamentoCaixa_Click(sender, e);
+                    break;
+                case Keys.F9:
+                    btnBloquearTela_Click(sender, e);
+                    break;
             }
         }
 
@@ -82,6 +91,24 @@ namespace TesteTelasCaixa
         {
             FrmReimprimirCupom frmReimprimirCupom = new FrmReimprimirCupom();
             abrirAplicacao(frmReimprimirCupom);
+        }
+
+        private void btnMenuPrincipal_Click(object sender, EventArgs e)
+        {
+            FrmMenuPrincipal frmMenuPrincipal = new FrmMenuPrincipal();
+            abrirAplicacao(frmMenuPrincipal);
+        }
+
+        private void btnFechamentoCaixa_Click(object sender, EventArgs e)
+        {
+            FrmFechamentoCaixa frmFechamentoCaixa = new FrmFechamentoCaixa();
+            abrirAplicacao(frmFechamentoCaixa);
+        }
+
+        private void btnBloquearTela_Click(object sender, EventArgs e)
+        {
+            FrmLogin frmLogin = new FrmLogin();
+            abrirAplicacao(frmLogin);
         }
     }
 }

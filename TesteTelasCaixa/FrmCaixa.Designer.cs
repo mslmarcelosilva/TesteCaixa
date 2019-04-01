@@ -43,12 +43,12 @@
             this.btnPesquisaProduto = new System.Windows.Forms.Button();
             this.btnPesquisaPedidos = new System.Windows.Forms.Button();
             this.btnCancelarCupons = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnMenuPrincipal = new System.Windows.Forms.Button();
+            this.btnFechamentoCaixa = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.btnReimprimirCupom = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
+            this.btnBloquearTela = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -204,33 +204,35 @@
             this.btnCancelarCupons.UseVisualStyleBackColor = false;
             this.btnCancelarCupons.Click += new System.EventHandler(this.btnCancelarCupons_Click);
             // 
-            // button4
+            // btnMenuPrincipal
             // 
-            this.button4.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(942, 553);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(94, 145);
-            this.button4.TabIndex = 14;
-            this.button4.Text = "Menu Principal (F7)";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnMenuPrincipal.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnMenuPrincipal.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenuPrincipal.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnMenuPrincipal.Image = ((System.Drawing.Image)(resources.GetObject("btnMenuPrincipal.Image")));
+            this.btnMenuPrincipal.Location = new System.Drawing.Point(942, 553);
+            this.btnMenuPrincipal.Name = "btnMenuPrincipal";
+            this.btnMenuPrincipal.Size = new System.Drawing.Size(94, 145);
+            this.btnMenuPrincipal.TabIndex = 14;
+            this.btnMenuPrincipal.Text = "Menu Principal (F7)";
+            this.btnMenuPrincipal.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnMenuPrincipal.UseVisualStyleBackColor = false;
+            this.btnMenuPrincipal.Click += new System.EventHandler(this.btnMenuPrincipal_Click);
             // 
-            // button5
+            // btnFechamentoCaixa
             // 
-            this.button5.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.button5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.Location = new System.Drawing.Point(1142, 553);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(94, 145);
-            this.button5.TabIndex = 15;
-            this.button5.Text = "Fechamento de Caixa (F8)";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnFechamentoCaixa.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnFechamentoCaixa.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFechamentoCaixa.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnFechamentoCaixa.Image = ((System.Drawing.Image)(resources.GetObject("btnFechamentoCaixa.Image")));
+            this.btnFechamentoCaixa.Location = new System.Drawing.Point(1142, 553);
+            this.btnFechamentoCaixa.Name = "btnFechamentoCaixa";
+            this.btnFechamentoCaixa.Size = new System.Drawing.Size(94, 145);
+            this.btnFechamentoCaixa.TabIndex = 15;
+            this.btnFechamentoCaixa.Text = "Fechamento de Caixa (F8)";
+            this.btnFechamentoCaixa.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnFechamentoCaixa.UseVisualStyleBackColor = false;
+            this.btnFechamentoCaixa.Click += new System.EventHandler(this.btnFechamentoCaixa_Click);
             // 
             // button6
             // 
@@ -273,19 +275,20 @@
             this.label5.TabIndex = 18;
             this.label5.Text = "Total:                      R$ 0,00";
             // 
-            // button8
+            // btnBloquearTela
             // 
-            this.button8.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.button8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
-            this.button8.Location = new System.Drawing.Point(1242, 553);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(94, 145);
-            this.button8.TabIndex = 19;
-            this.button8.Text = "Bloquear Caixa (F9)";
-            this.button8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button8.UseVisualStyleBackColor = false;
+            this.btnBloquearTela.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnBloquearTela.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBloquearTela.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnBloquearTela.Image = ((System.Drawing.Image)(resources.GetObject("btnBloquearTela.Image")));
+            this.btnBloquearTela.Location = new System.Drawing.Point(1242, 553);
+            this.btnBloquearTela.Name = "btnBloquearTela";
+            this.btnBloquearTela.Size = new System.Drawing.Size(94, 145);
+            this.btnBloquearTela.TabIndex = 19;
+            this.btnBloquearTela.Text = "Bloquear Caixa (F9)";
+            this.btnBloquearTela.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnBloquearTela.UseVisualStyleBackColor = false;
+            this.btnBloquearTela.Click += new System.EventHandler(this.btnBloquearTela_Click);
             // 
             // label6
             // 
@@ -312,12 +315,12 @@
             this.ControlBox = false;
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.button8);
+            this.Controls.Add(this.btnBloquearTela);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnReimprimirCupom);
             this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btnFechamentoCaixa);
+            this.Controls.Add(this.btnMenuPrincipal);
             this.Controls.Add(this.btnCancelarCupons);
             this.Controls.Add(this.btnPesquisaPedidos);
             this.Controls.Add(this.btnPesquisaProduto);
@@ -361,12 +364,12 @@
         private System.Windows.Forms.Button btnPesquisaProduto;
         private System.Windows.Forms.Button btnPesquisaPedidos;
         private System.Windows.Forms.Button btnCancelarCupons;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnMenuPrincipal;
+        private System.Windows.Forms.Button btnFechamentoCaixa;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button btnReimprimirCupom;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button btnBloquearTela;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox5;
     }

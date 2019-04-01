@@ -58,11 +58,23 @@
     <Compile Include="FrmCancelarCupons.Designer.cs">
       <DependentUpon>FrmCancelarCupons.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmFechamentoCaixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFechamentoCaixa.Designer.cs">
+      <DependentUpon>FrmFechamentoCaixa.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenuPrincipal.Designer.cs">
+      <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmPesquisaPedidos.cs">
       <SubType>Form</SubType>

@@ -423,7 +423,7 @@
         xcQgSn65xkQ3+w8FTP7OQeDb9DusjgtF+X+TSZYZPoo5EQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="button4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnMenuPrincipal.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EQAACxEBf2RfkQAAAAd0SU1FB9QHBwgQGtM/qqMAAA0ySURBVGhD7VgHdJXlGf4QAQsKR4xVQKriAC2j
@@ -486,7 +486,7 @@
         AAAASUVORK5CYII=
 </value>
   </data>
-  <data name="button5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnFechamentoCaixa.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAK
         8AAACvABQqw0mAAAAAd0SU1FB9MKBhQZCldfyPYAAA9WSURBVGhD1ZkJXE5p+8dPkbGTsQ4z/8lrLGHe
@@ -676,7 +676,7 @@
         tSqj4aGqzX/bKJoE6eWW0Ea10en+Dew0LZblE90tAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="button8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnBloquearTela.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EQAACxEBf2RfkQAAAAd0SU1FB9MKBhQYLnJHHWYAAA+kSURBVGhD7VkHeJVlmn1vCiQkEAMhISGQ5Jbk
