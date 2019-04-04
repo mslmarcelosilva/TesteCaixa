@@ -16,7 +16,7 @@ namespace TesteTelasCaixa
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmCadastroProduto());
+            Application.Run(new FrmCaixa());
         }
     }
 }

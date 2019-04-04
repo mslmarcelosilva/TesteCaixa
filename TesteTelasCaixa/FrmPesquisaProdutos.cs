@@ -16,5 +16,11 @@ namespace TesteTelasCaixa
         {
             InitializeComponent();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            FrmCadastroProduto frmCadastroProduto = new FrmCadastroProduto();
+            frmCadastroProduto.Show();
+        }
     }
 }
